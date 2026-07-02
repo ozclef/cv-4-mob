@@ -29,7 +29,7 @@
   <p>Selecciona una sección arriba para cargar su contenido.</p>
 </main>
 <script>
-    */
+/*    */
   async function loadMarkdown(file) {
     try {
       const res = await fetch(file);
@@ -41,7 +41,7 @@
     }
   }
     /*
-</script>
+<!--/script>
 </body>
 </html>
 
@@ -81,7 +81,13 @@ Copiar código
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oscar Cruz Díaz — Portafolio</title>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
+  
+  
+  <!--/script>
+
+
+  
   <style>
     body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
     header { background: #0a0a23; color: white; padding: 1rem; text-align: center; }
@@ -102,7 +108,8 @@ Copiar código
 <main id="content">
   <p>Selecciona una sección arriba para cargar su contenido.</p>
 </main>
-*/
+
+*   /
 
   async function loadMarkdown(file) {
     try {
